@@ -92,7 +92,7 @@ Once these steps are completed, you'll be able to interact with the LuckSphere L
 
 ## Useful links
 
-- 🏠 [Website]()
+- 🏠 [Website](https://lucks-phere.vercel.app/)
 - ⚽ [Metamask](https://metamask.io/)
 - 🚀 [Infuria](https://app.infura.io/dashboard/)
 - 💡 [Hardhat](https://hardhat.org/)
@@ -100,4 +100,4 @@ Once these steps are completed, you'll be able to interact with the LuckSphere L
 - 🐻 [Solidity](https://soliditylang.org/)
 - 👀 [Ethersjs](https://docs.ethers.io/v5/)
 - 🎅 [CometChat](https://try.cometchat.com/daltonic)
-- ✨ [Live Demo]()
+- ✨ [Live Demo](https://lucks-phere.vercel.app/)
