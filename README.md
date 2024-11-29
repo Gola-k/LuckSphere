@@ -1,21 +1,22 @@
-# How to Build a Lottery DApp with NextJs, Solidity, and CometChat
+# LuckSphere
 
-Read the full tutorial here: [**>> How to Build a Lottery DApp with NextJs, Solidity, and CometChat**](https://daltonic.github.io)
+This shows How to start LuckSphere Lottery DApp with NextJs, Solidity, and CometChat on Crossfi testnet Chain:
 
-This example shows How to Build a Lottery DApp with NextJs, Solidity, and CometChat:
+<div align="center">
+  <img src="./screenshots/0.gif" alt="Creating a Lottery" />
+  <p><strong>Creating a Lottery</strong></p>
+</div>
 
-![Creating a Lottery](./screenshots/0.gif)
+<div align="center">
+  <img src="./screenshots/1.gif" alt="Purchasing Ticket" />
+  <p><strong>Purchasing Ticket</strong></p>
+</div>
 
-<center><figcaption>Creating a Lottery</figcaption></center>
+<div align="center">
+  <img src="./screenshots/2.gif" alt="Live Chat" />
+  <p><strong>Live Chat</strong></p>
+</div>
 
-
-![Purchasing Ticket](./screenshots/1.gif)
-
-<center><figcaption>Purchasing Ticket</figcaption></center>
-
-![Live Chat](./screenshots/2.gif)
-
-<center><figcaption>Live Chat</figcaption></center>
 
 ## Technology
 
@@ -39,12 +40,12 @@ To run the demo follow these steps:
    ```sh
 
    # Make sure you have the above prerequisites installed already!
-   git clone https://github.com/Daltonic/dapplottery dappLottery
+   git clone https://github.com/Gola-k/LuckSphere
    cd dappLottery # Navigate to the new folder.
    yarn install # Installs all the dependencies.
    ```
 
-2. Head to [CometChat](https://try.cometchat.com/daltonic) and create a project.
+2. Head to [CometChat](https://try.cometchat.com) and create a project.
 
 3. Create a `.env.local` file to include the following details.
    ```sh
@@ -55,13 +56,43 @@ To run the demo follow these steps:
 4. Run the app using `yarn dev`
    <br/>
 
-If your confuse about the installation, check out this **TUTORIAL** to see how you should run it.
+## Adding CrossFi Testnet to MetaMask
 
-Questions about running the demo? [Open an issue](https://github.com/Daltonic/dappLottery/issues). We're here to help ✌️
+1. **Open MetaMask** and click on the network dropdown at the top of the MetaMask window (where it says "Ethereum Mainnet" by default).
+
+2. **Select** "Add Network" at the bottom.
+
+3. In the **Network Name**, enter the following details for the CrossFi testnet:
+
+   - **Network Name**: CrossFi Testnet
+   - **New RPC URL**: `[https://rpc.testnet.crossfi.network](https://rpc.testnet.ms/)`
+   - **Chain ID**: `4157`
+   - **Currency Symbol**: `XFI`
+   - **Block Explorer URL**: `[https://testnet.blockchain.explorer](https://test.xfiscan.com/dashboard)`
+
+4. **Save** the network configuration.
+
+---
+
+## Getting XFI Tokens for Transactions
+
+To get some XFI tokens for making transactions, follow these steps:
+
+1. Go to the [CrossFi Faucet](https://crossfi.faucetme.pro/) (or similar URL if available for the testnet).
+2. Enter your **MetaMask wallet address** and request some **XFI tokens** for testing.
+3. Once received, you'll be able to use the XFI tokens to interact with the LuckSphere Lottery DApp.
+
+---
+
+Once these steps are completed, you'll be able to interact with the LuckSphere Lottery DApp and use XFI tokens for purchasing tickets and participating in lotteries. 
+
+---
+
+**Note**: Make sure your MetaMask is connected to the CrossFi Testnet whenever you interact with the DApp.
 
 ## Useful links
 
-- 🏠 [Website](https://daltonic.github.io/)
+- 🏠 [Website]()
 - ⚽ [Metamask](https://metamask.io/)
 - 🚀 [Infuria](https://app.infura.io/dashboard/)
 - 💡 [Hardhat](https://hardhat.org/)
@@ -69,4 +100,4 @@ Questions about running the demo? [Open an issue](https://github.com/Daltonic/da
 - 🐻 [Solidity](https://soliditylang.org/)
 - 👀 [Ethersjs](https://docs.ethers.io/v5/)
 - 🎅 [CometChat](https://try.cometchat.com/daltonic)
-- ✨ [Live Demo](https://dapplottery.vercel.app/)
+- ✨ [Live Demo]()
